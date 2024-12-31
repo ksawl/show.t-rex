@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "t-rex"
+version = "0.1.0"
+description = "Game T-Rex"
+authors = ["Serhii Karavashkin <serhii.karavashkin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.6.1"
+
+[tool.poetry.scripts]
+go = "t-rex.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
